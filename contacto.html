@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<header class="form">
+    <div class="barra-form">
+        <div class="mobile-menu">
+            <a href="#navegacion" class="open">
+                <img src="img/barras.svg" alt="Icono Menu" href="#navegacion">
+            </a>
+        </div>   
+        <nav class="navegacion" id="navegacion">
+            <a href="index.html" >Inicio</a>
+            <a href="sobremi.html" >Sobre mi</a>
+            <a href="proyectos.html" >Proyectos</a>
+            <a href="contacto.html" >Contacto</a>
+            <a href="#" class="close">Cerrar menu</a>
+        </nav>      
+    </div>
+</header>
+<body class="formulario">
+<div class="content">
+    <header class="title">
+        <h1 id="title">Contacto</h1>
+        <p id="title">Completa los datos y me comunicare a la brevedad</p>
+        <p id="title">o bien puedes contactarme via email</p>
+        <p id="title">franco.tejeda@hotmail.com</p>
+    </header>    
+    <section class="section-form">
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label">Nombre</label>
+                <input type="text" name="name" id="nombre" placeholder="Nombre" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido" id="apellido-label">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="name" id="motivos-label">Motivos de contacto</label>
+                <textarea name="comments" id="comments" maxlength="300" class="input-textarea"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Enviar
+                </button>
+            </div>
+        </form>
+    </section>
+</div>
+<section class="fin">
+    <h2 class="footer">Este es un portfolio verdadero. Todos los proyectos y contactos son reales.</h2>
+    <h2 class="footer">©Creado por Franco-T</h2>
+</section>
+</body>
