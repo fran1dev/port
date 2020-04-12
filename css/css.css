@@ -26,9 +26,20 @@ body {
 }
 .nombre h1{ 
     font-size: 3rem;
+    letter-spacing: 2.2rem;
+}
+@media (max-width: 768px) {
+    .nombre h1{
+        letter-spacing: .6rem;
+    }
 }
 .nombre h3 {
     margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    .nombre h3 {
+        color: white;
+    }
 }
 @media (max-width: 450px) {
     .nombre h3 {
