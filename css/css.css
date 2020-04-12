@@ -365,6 +365,7 @@ section.info h1 {
         width: 100%;
     }
 }
+
 /**sobre mi**/
 @media (min-width: 768px) {
     .sobremi {
@@ -416,14 +417,15 @@ div.descripcion h3 {
 @media (max-width: 768px) {
     div.descripcion {
         margin-left: 3rem;
-        width: 80%;
-        height: 80%;
+        width: 60%;
+        height: 60%;
         margin-top: .5rem;
     }
 }
 @media (max-width: 650px) {
     div.descripcion {
         margin-left: 2rem;
+        height: 60%;
     }
 }
 @media (max-width: 500px) {
